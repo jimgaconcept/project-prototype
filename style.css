@@ -1,0 +1,100 @@
+/* Center all main text */
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.center-image {
+  display: block;         
+  margin: 20px auto;       
+  width: 60%;              
+  max-width: 600px;        
+  border-radius: 12px;   
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+}
+
+ 
+header {
+  margin-top: 50px;
+}
+body {
+  background-color: #E0F7FA;
+  color: #212121;
+}
+  
+h1 {
+  color: #0077B6;
+  text-align: left;
+}
+
+h1 {
+  color: #0077B6;
+  text-align: left;      
+  margin-left: 400px;     
+  
+}
+
+
+
+h2 {
+  color: #0077B6;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 0 10px;
+}
+
+main {
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.three-column-gallery {
+  display: flex;             
+  justify-content: center;    
+  gap: 20px;                  
+  margin: 20px auto;          
+  max-width: 900px;           
+}
+
+.three-column-gallery img {
+  width: 30%;                 
+  border-radius: 10px;        
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  
+}
+
+
+
+
+
+nav a:visited {
+  color: #850099; 
+}
+
+
+nav a:hover {
+  color: #ff6600; 
+  text-decoration: underline;
+}
+
+
+nav a:active {
+  color: #cc0000; 
+}
+
+.gallery-text {
+  max-width: 900px;      
+  margin: 0 auto;        
+  line-height: 1.5;     
+}
+
+.About-text {
+  max-width: 900px;      
+  margin: 0 auto;        
+  line-height: 1.5;     
+}
