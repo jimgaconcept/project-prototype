@@ -1,7 +1,15 @@
 /* Center all main text */
 
 
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url(<style>
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+</style>);
+
+.chewy-regular {
+  font-family: "Chewy", system-ui;
+  font-weight: 800;
+  font-style: normal;
+}
 
 /*
  * Sets everyting to use `border-box` for calculating sizing.
@@ -20,13 +28,15 @@ html {
 
 body {
     color: #202020;
-    font-family: Outfit, sans-serif;
+    font-family: "Chewy", system-ui;
     max-width: 800px;
     margin: 2em auto;
 }
 
 h1 {
-    font-weight: 100;
+    font-size: 2em;
+    font-weight: 700;
+    margin: 0.5em 0;
 }
 
 header h1 {
@@ -34,8 +44,8 @@ header h1 {
     font-weight: 500;
     margin: 1em 1em 5em;
     padding: 0.25em;
-    background: #222;
-    color: white;
+    background: #22222200;
+    color: rgb(245, 246, 242);
     width: fit-content;
 }
 
@@ -46,8 +56,8 @@ header {
     background-size: cover;
 }
 
-a:link {color: #8833cc;}
-a:visited {color: #aa55ee;}
+a:link {color: #2b2a2c;}
+a:visited {color: #3a383c;}
 a:hover,
 a:focus {color: #7722bb;}
 a:active {color: #8833cc;}
@@ -55,12 +65,23 @@ a:active {color: #8833cc;}
 nav {
     padding: 1em;
     margin: 0;
-    background: #f0f0f0;
+    background: #f2f7d2;
 }
 
 nav a {
-    text-decoration:none;
+    text-decoration:none; 
+    background-color: #f5efa1;
+    border-radius: 5px;
+    font-family: "arial"; san serif
+    
 }
+
+nav a:hover,
+nav a:focus {
+background-color: #bbd1dc;
+padding: 5px 10px 10px 20px
+}
+   
 
 main h1,
 main h2,
@@ -80,8 +101,8 @@ main p {
 
 
 body {
-  text-align: center;
-  font-family: Arial, sans-serif;
+  text-align: left;
+  font-family: "Chewy", system-ui;
 }
 
 .center-image {
@@ -94,31 +115,20 @@ body {
 }
 
  
-header {
-  margin-top: 50px;
-}
-body {
-  background-color: #E0F7FA;
-  color: #212121;
-}
-  
-h1 {
-  color: #0077B6;
-  text-align: left;
-}
 
-h1 {
-  color: #0077B6;
-  text-align: left;      
-  margin-left: 400px;     
   
-}
+
+
 
 
 
 h2 {
-  color: #0077B6;
+  color: #181919;
   text-align: center;
+  font-family: "arial"; san serif
+  font-size: 1.25em;
+    font-weight: 500;
+  
 }
 
 nav a {
@@ -152,20 +162,7 @@ main {
 
 
 
-nav a:visited {
-  color: #850099; 
-}
 
-
-nav a:hover {
-  color: #ff6600; 
-  text-decoration: underline;
-}
-
-
-nav a:active {
-  color: #cc0000; 
-}
 
 .gallery-text {
   max-width: 900px;      
