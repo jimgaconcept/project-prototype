@@ -67,9 +67,10 @@ nav {
 
 nav a {
     text-decoration:none; 
-    background-color: #f5efa1;
+
     border-radius: 5px;
     font-family: "arial"; san serif
+    color:#f2f7d2;
     
 }
 
